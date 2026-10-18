@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Feast — Luxury Restaurant & Premier Catering Services</title>
+  <meta name="description" content="Royal Feast delivers majestic catering and exquisite dining experiences for grand weddings, corporate galas, and special occasions. Explore our royal menus and bespoke event catering.">
+  <meta name="keywords" content="luxury catering, royal banquet, wedding catering, corporate event food, desi catering, live BBQ catering, halal catering services">
+  <meta name="author" content="Royal Feast Culinary Arts">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Royal Feast — Luxury Restaurant & Premier Catering">
+  <meta property="og:description" content="Majestic dining experiences, authentic recipes, and bespoke event catering.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:url" content="https://royalfeast.com/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg royal-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" aria-label="Royal Feast Home">
+        <img src="assets/images/logo.svg" alt="Royal Feast Logo">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#royalNavCollapse" aria-controls="royalNavCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="royalNavCollapse">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="packages.html">Catering Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-3">
+          <a href="contact.html" class="btn btn-royal-gold btn-royal-sm d-none d-sm-inline-flex">
+            <i class="bi bi-calendar-check"></i> Book Your Event
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1600&q=80" 
+         alt="Royal Feast Luxury Banquet Hall" 
+         class="hero-bg" 
+         loading="eager">
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content text-center">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-9">
+          <div class="hero-badge">
+            <i class="bi bi-gem"></i> Bespoke Royal Hospitality &amp; Fine Dining
+          </div>
+          <h1 class="hero-title">
+            Experience the Pinnacle of <span class="text-gold">Royal Catering</span>
+          </h1>
+          <p class="hero-desc">
+            From imperial wedding banquets and high-profile corporate galas to cherished family milestones, Royal Feast crafts unforgettable dining journeys with authentic flavors, royal elegance, and white-glove service.
+          </p>
+
+          <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="contact.html" class="btn btn-royal-gold">
+              <i class="bi bi-calendar2-heart"></i> Book Your Event
+            </a>
+            <a href="services.html" class="btn btn-royal-outline">
+              <i class="bi bi-compass"></i> Explore Our Services
+            </a>
+          </div>
+
+          <!-- Hero Stats Strip -->
+          <div class="row hero-stats justify-content-center g-4">
+            <div class="col-6 col-md-3 stat-item">
+              <h3>1,500+</h3>
+              <p>Events Catered</p>
+            </div>
+            <div class="col-6 col-md-3 stat-item">
+              <h3>25+</h3>
+              <p>Master Chefs</p>
+            </div>
+            <div class="col-6 col-md-3 stat-item">
+              <h3>150K+</h3>
+              <p>Delighted Guests</p>
+            </div>
+            <div class="col-6 col-md-3 stat-item">
+              <h3>100%</h3>
+              <p>Fresh &amp; Halal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Preview Section -->
+  <section class="py-5 bg-royal-green-900">
+    <div class="container py-lg-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="position-relative pe-lg-3">
+            <img src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=900&q=80" 
+                 alt="Royal Feast Culinary Setup" 
+                 class="img-fluid rounded-3 border border-gold shadow-lg w-100"
+                 style="min-height: 420px; object-fit: cover;">
+            <div class="position-absolute bottom-0 start-0 m-3 p-3 bg-royal-dark border border-gold rounded-2 d-none d-sm-block" style="max-width: 250px;">
+              <div class="d-flex align-items-center gap-2 mb-1">
+                <i class="bi bi-award-fill text-gold fs-4"></i>
+                <span class="fw-bold text-white">Award-Winning</span>
+              </div>
+              <p class="small text-muted mb-0">Recognized for premier banquet aesthetics and culinary authenticity.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="section-subtitle">Our Heritage</div>
+          <h2 class="section-title">A Legacy of Regal Flavors &amp; Unrivaled Service</h2>
+          <div class="gold-divider ms-0"></div>
+          <p class="text-body mb-4">
+            Founded with a vision to preserve the grandeur of subcontinental and international culinary traditions, <strong>Royal Feast</strong> has evolved into a premier destination for high-end dining and full-service event catering.
+          </p>
+          <p class="text-body mb-4">
+            Whether preparing fragrant slow-simmered dum biryanis, flame-charred seekh kebabs, exquisite pan-Asian specialties, or delicate gourmet pastries, our seasoned culinary masters balance heritage recipes with modern culinary presentation.
+          </p>
+          
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-check-circle-fill text-gold"></i>
+                <span class="fw-semibold text-white">Tailored Custom Menus</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-check-circle-fill text-gold"></i>
+                <span class="fw-semibold text-white">Live On-Site Cooking</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-check-circle-fill text-gold"></i>
+                <span class="fw-semibold text-white">Luxury Silverware &amp; Decor</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-check-circle-fill text-gold"></i>
+                <span class="fw-semibold text-white">Certified Hygiene Protocols</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="about.html" class="btn btn-royal-gold">
+            <i class="bi bi-arrow-right"></i> Read Our Full Story
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Services Preview -->
+  <section class="py-5 bg-royal-green-800">
+    <div class="container py-lg-5">
+      <div class="text-center mb-5">
+        <div class="section-subtitle">Exquisite Offerings</div>
+        <h2 class="section-title">Featured Catering Services</h2>
+        <div class="gold-divider"></div>
+        <p class="text-muted mx-auto" style="max-width: 650px;">
+          Explore our signature catering concepts, each curated with thematic decor, specialized chefs, and flawless event coordination.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Service 1: Wedding -->
+        <div class="col-md-6 col-lg-4">
+          <div class="royal-card">
+            <div class="card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1519225429173-9efb4db8ebf5?auto=format&fit=crop&w=700&q=80" alt="Royal Wedding Catering">
+              <span class="card-badge">Signature</span>
+            </div>
+            <div class="royal-card-body">
+              <h3 class="royal-card-title">Wedding Catering</h3>
+              <p class="royal-card-text">
+                Enchant your guests on your monumental day with majestic multi-course banquets, royal chafing setups, and personalized menu curation.
+              </p>
+              <ul class="feature-list">
+                <li><i class="bi bi-stars"></i> Grand Buffet &amp; Plated Service</li>
+                <li><i class="bi bi-stars"></i> Thematic Floral &amp; Table Setting</li>
+              </ul>
+              <a href="services.html#weddings" class="btn btn-royal-outline btn-royal-sm mt-auto">
+                Discover More <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 2: Corporate Events -->
+        <div class="col-md-6 col-lg-4">
+          <div class="royal-card">
+            <div class="card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=700&q=80" alt="Corporate Event Catering">
+              <span class="card-badge">Executive</span>
+            </div>
+            <div class="royal-card-body">
+              <h3 class="royal-card-title">Corporate Events</h3>
+              <p class="royal-card-text">
+                Impress delegates and clients with punctual, sophisticated culinary arrangements, executive lunches, conferences, and gala dinners.
+              </p>
+              <ul class="feature-list">
+                <li><i class="bi bi-stars"></i> Bento Box &amp; Buffet Options</li>
+                <li><i class="bi bi-stars"></i> Coffee Break &amp; Pastry Bars</li>
+              </ul>
+              <a href="services.html#corporate" class="btn btn-royal-outline btn-royal-sm mt-auto">
+                Discover More <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 3: BBQ Live Station -->
+        <div class="col-md-6 col-lg-4">
+          <div class="royal-card">
+            <div class="card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=700&q=80" alt="Live BBQ Catering">
+              <span class="card-badge">Live Station</span>
+            </div>
+            <div class="royal-card-body">
+              <h3 class="royal-card-title">Live BBQ &amp; Grills</h3>
+              <p class="royal-card-text">
+                The sizzle of coals, tender marinades, and fresh-off-the-skewer kebabs served straight to your guests by our master pitmasters.
+              </p>
+              <ul class="feature-list">
+                <li><i class="bi bi-stars"></i> Charcoal Grilled Seekh &amp; Boti</li>
+                <li><i class="bi bi-stars"></i> Fresh Tandoori Naan &amp; Chutneys</li>
+              </ul>
+              <a href="services.html#bbq" class="btn btn-royal-outline btn-royal-sm mt-auto">
+                Discover More <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="services.html" class="btn btn-royal-gold">
+          View All 11 Catering Services <i class="bi bi-grid-3x3-gap-fill ms-2"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Food Categories -->
+  <section class="py-5 bg-royal-green-900">
+    <div class="container py-lg-5">
+      <div class="text-center mb-5">
+        <div class="section-subtitle">Gastronomic Excellence</div>
+        <h2 class="section-title">Popular Culinary Categories</h2>
+        <div class="gold-divider"></div>
+        <p class="text-muted mx-auto" style="max-width: 650px;">
+          Mastery across diverse palates. Our culinary team blends age-old spice secrets with modern gourmet craftsmanship.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Category 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="category-card">
+            <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" alt="Traditional Desi Food">
+            <div class="category-overlay">
+              <h4 class="category-title">Traditional Desi</h4>
+              <p class="category-desc">Aromatic Biryanis, Karahi, Haleem &amp; Nihari</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="category-card">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80" alt="Live BBQ Catering">
+            <div class="category-overlay">
+              <h4 class="category-title">Smoky BBQ</h4>
+              <p class="category-desc">Seekh Kebabs, Malai Boti, Chops &amp; Fish Tikka</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="category-card">
+            <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=600&q=80" alt="Chinese and Pan Asian">
+            <div class="category-overlay">
+              <h4 class="category-title">Pan-Asian &amp; Chinese</h4>
+              <p class="category-desc">Gourmet Noodles, Manchurian, Szechuan &amp; Dim Sum</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="category-card">
+            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80" alt="Desserts and Sweet Symphony">
+            <div class="category-overlay">
+              <h4 class="category-title">Sweet Symphony</h4>
+              <p class="category-desc">Shahi Kheer, Gulab Jamun, Pastries &amp; Mousse</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Preview Section -->
+  <section class="py-5 bg-royal-green-800">
+    <div class="container py-lg-5">
+      <div class="row align-items-end mb-4">
+        <div class="col-lg-8">
+          <div class="section-subtitle">Visual Splendor</div>
+          <h2 class="section-title mb-0">Our Banquet &amp; Culinary Showcase</h2>
+        </div>
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+          <a href="gallery.html" class="btn btn-royal-outline">
+            Open Full Gallery <i class="bi bi-images ms-2"></i>
+          </a>
+        </div>
+      </div>
+      <div class="gold-divider ms-0 mb-5"></div>
+
+      <div class="row g-4">
+        <div class="col-6 col-md-4">
+          <div class="gallery-item" onclick="window.location.href='gallery.html'">
+            <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=600&q=80" alt="Luxury Banquet Setup">
+            <div class="gallery-hover-overlay">
+              <div class="gallery-zoom-icon"><i class="bi bi-eye"></i></div>
+              <h5 class="text-white mb-1">Grand Wedding Hall</h5>
+              <span class="text-gold small">Weddings</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+          <div class="gallery-item" onclick="window.location.href='gallery.html'">
+            <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" alt="Mughlai Royal Biryani">
+            <div class="gallery-hover-overlay">
+              <div class="gallery-zoom-icon"><i class="bi bi-eye"></i></div>
+              <h5 class="text-white mb-1">Imperial Dum Biryani</h5>
+              <span class="text-gold small">Desi Cuisine</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+          <div class="gallery-item" onclick="window.location.href='gallery.html'">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80" alt="Sizzling Live BBQ Platter">
+            <div class="gallery-hover-overlay">
+              <div class="gallery-zoom-icon"><i class="bi bi-eye"></i></div>
+              <h5 class="text-white mb-1">Live Pit Grill</h5>
+              <span class="text-gold small">BBQ Specialties</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+          <div class="gallery-item" onclick="window.location.href='gallery.html'">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="Executive Buffet Dining">
+            <div class="gallery-hover-overlay">
+              <div class="gallery-zoom-icon"><i class="bi bi-eye"></i></div>
+              <h5 class="text-white mb-1">Chafing Buffet Spread</h5>
+              <span class="text-gold small">Corporate Events</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+          <div class="gallery-item" onclick="window.location.href='gallery.html'">
+            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80" alt="Artisan Royal Desserts">
+            <div class="gallery-hover-overlay">
+              <div class="gallery-zoom-icon"><i class="bi bi-eye"></i></div>
+              <h5 class="text-white mb-1">Royal Confectionery</h5>
+              <span class="text-gold small">Desserts</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+          <div class="gallery-item" onclick="window.location.href='gallery.html'">
+            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80" alt="Fresh Mocktails and Beverages">
+            <div class="gallery-hover-overlay">
+              <div class="gallery-zoom-icon"><i class="bi bi-eye"></i></div>
+              <h5 class="text-white mb-1">Gourmet Refreshments</h5>
+              <span class="text-gold small">Beverages</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="py-5 bg-royal-green-900">
+    <div class="container py-lg-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5">
+          <div class="section-subtitle">The Royal Advantage</div>
+          <h2 class="section-title">Why Connoisseurs Choose Royal Feast</h2>
+          <div class="gold-divider ms-0"></div>
+          <p class="text-body mb-4">
+            We don't simply serve food; we design grand culinary memories. Every banquet is treated as an opulent coronation of flavors, elevated by impeccable hospitality and uncompromising culinary ethics.
+          </p>
+          <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=700&q=80" 
+               alt="Master Chef Plating Food" 
+               class="img-fluid rounded-3 border border-gold shadow d-none d-lg-block">
+        </div>
+
+        <div class="col-lg-7">
+          <div class="row g-4">
+            <div class="col-sm-6">
+              <div class="why-item">
+                <div class="why-icon">
+                  <i class="bi bi-award"></i>
+                </div>
+                <div>
+                  <h4 class="text-white h5 mb-2">Master Chefs</h4>
+                  <p class="small text-muted mb-0">Decades of collective experience crafting traditional regional specialties and global continental dishes.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="why-item">
+                <div class="why-icon">
+                  <i class="bi bi-shield-check"></i>
+                </div>
+                <div>
+                  <h4 class="text-white h5 mb-2">100% Halal &amp; Fresh</h4>
+                  <p class="small text-muted mb-0">Rigorous quality control, farm-fresh produce, premium grain selection, and certified Halal meats.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="why-item">
+                <div class="why-icon">
+                  <i class="bi bi-gem"></i>
+                </div>
+                <div>
+                  <h4 class="text-white h5 mb-2">Regal Presentation</h4>
+                  <p class="small text-muted mb-0">Gold-rimmed china, brass samovars, luxury chafing vessels, and tailored thematic linen setups.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="why-item">
+                <div class="why-icon">
+                  <i class="bi bi-clock-history"></i>
+                </div>
+                <div>
+                  <h4 class="text-white h5 mb-2">Punctual Execution</h4>
+                  <p class="small text-muted mb-0">Flawless timing, on-site banquet managers, and smooth transition between appetizers, mains, and desserts.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="why-item">
+                <div class="why-icon">
+                  <i class="bi bi-sliders"></i>
+                </div>
+                <div>
+                  <h4 class="text-white h5 mb-2">Tailored Quotations</h4>
+                  <p class="small text-muted mb-0">Transparent pricing models adapted to guest counts, dietary choices, and customized menu selections.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="why-item">
+                <div class="why-icon">
+                  <i class="bi bi-people"></i>
+                </div>
+                <div>
+                  <h4 class="text-white h5 mb-2">Trained Waitstaff</h4>
+                  <p class="small text-muted mb-0">Courteous, uniformed service personnel dedicated to offering every guest royal hospitality.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-5 bg-royal-green-800">
+    <div class="container py-lg-5">
+      <div class="text-center mb-5">
+        <div class="section-subtitle">Client Accolades</div>
+        <h2 class="section-title">Words From Our Royal Guests</h2>
+        <div class="gold-divider"></div>
+        <p class="text-muted mx-auto" style="max-width: 650px;">
+          Hear how Royal Feast turned celebrations into extraordinary culinary milestones.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Testimonial 1 -->
+        <div class="col-lg-4">
+          <div class="testimonial-card">
+            <div>
+              <div class="rating-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="testimonial-quote">
+                "Royal Feast catered our daughter’s three-day wedding for 800 guests. The Mutton Biryani was sheer perfection, and the live BBQ stall kept our guests returning for more. Flawless hospitality!"
+              </p>
+            </div>
+            <div class="testimonial-client">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Malik Tariq" class="client-avatar">
+              <div>
+                <h4 class="client-name">Malik &amp; Farah Tariq</h4>
+                <p class="client-event">Daughter's Grand Wedding Reception</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="col-lg-4">
+          <div class="testimonial-card">
+            <div>
+              <div class="rating-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="testimonial-quote">
+                "Our multinational annual summit required an executive level banquet with foreign delegates. Royal Feast served a flawless fusion of Pan-Asian dishes and traditional desserts. Highly recommended!"
+              </p>
+            </div>
+            <div class="testimonial-client">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="David Sterling" class="client-avatar">
+              <div>
+                <h4 class="client-name">David Sterling</h4>
+                <p class="client-event">VP of Corporate Operations</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="col-lg-4">
+          <div class="testimonial-card">
+            <div>
+              <div class="rating-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="testimonial-quote">
+                "The attention to detail in their Imperial Royal package is unmatched. The royal table styling and warm Shahi Tukray left our anniversary party guests raving for weeks."
+              </p>
+            </div>
+            <div class="testimonial-client">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" alt="Amina Raza" class="client-avatar">
+              <div>
+                <h4 class="client-name">Amina Raza</h4>
+                <p class="client-event">Silver Jubilee Anniversary Gala</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Banner -->
+  <section class="py-5 bg-royal-green-900">
+    <div class="container">
+      <div class="cta-banner text-center text-lg-start">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <span class="badge bg-warning text-dark px-3 py-2 text-uppercase fw-bold mb-3">Reservations Open</span>
+            <h2 class="display-6 fw-bold text-white mb-3">
+              Planning a Grand Celebration or Executive Event?
+            </h2>
+            <p class="text-body mb-lg-0 lead fs-6">
+              Let our catering consultants and master chefs compose a feast worthy of royalty. Get in touch today for personalized tastings and custom quotation estimates.
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+            <div class="d-flex flex-column flex-sm-row justify-content-lg-end gap-3">
+              <a href="packages.html#quoteSection" class="btn btn-royal-gold">
+                <i class="bi bi-receipt-cutoff"></i> Custom Quotation
+              </a>
+              <a href="#" class="btn btn-royal-outline whatsapp-link" data-message="Hello! I would like to inquire about booking Royal Feast for an upcoming event.">
+                <i class="bi bi-whatsapp"></i> WhatsApp Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Complete Footer -->
+  <footer class="royal-footer">
+    <div class="container">
+      <div class="row g-4 g-lg-5">
+        <!-- Brand Info -->
+        <div class="col-lg-4">
+          <a href="index.html" class="d-inline-block mb-3">
+            <img src="assets/images/logo.svg" alt="Royal Feast Catering" class="footer-logo">
+          </a>
+          <p class="footer-desc">
+            Royal Feast is an elite culinary catering service dedicated to curating regal dining experiences. Blending time-honored heritage recipes with white-glove event orchestration.
+          </p>
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-6 col-lg-2">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="bi bi-chevron-right text-gold"></i> Home</a></li>
+            <li><a href="about.html"><i class="bi bi-chevron-right text-gold"></i> About Us</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right text-gold"></i> Services</a></li>
+            <li><a href="packages.html"><i class="bi bi-chevron-right text-gold"></i> Packages</a></li>
+            <li><a href="gallery.html"><i class="bi bi-chevron-right text-gold"></i> Gallery</a></li>
+            <li><a href="contact.html"><i class="bi bi-chevron-right text-gold"></i> Contact Us</a></li>
+            <li><a href="privacy.html"><i class="bi bi-chevron-right text-gold"></i> Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Popular Services -->
+        <div class="col-6 col-lg-3">
+          <h4 class="footer-heading">Specialties</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#weddings"><i class="bi bi-chevron-right text-gold"></i> Wedding Banquets</a></li>
+            <li><a href="services.html#corporate"><i class="bi bi-chevron-right text-gold"></i> Corporate Galas</a></li>
+            <li><a href="services.html#bbq"><i class="bi bi-chevron-right text-gold"></i> Live BBQ Grills</a></li>
+            <li><a href="services.html#desi"><i class="bi bi-chevron-right text-gold"></i> Traditional Desi Menu</a></li>
+            <li><a href="services.html#desserts"><i class="bi bi-chevron-right text-gold"></i> Royal Sweets &amp; Kheer</a></li>
+            <li><a href="packages.html#quoteSection"><i class="bi bi-chevron-right text-gold"></i> Custom Event Quote</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-lg-3">
+          <h4 class="footer-heading">Contact &amp; Bookings</h4>
+          <div class="footer-contact-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span>Royal Feast House, 45 Grand Avenue, Imperial Banquet District</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-telephone-fill"></i>
+            <a href="tel:+923001234567">+92 300 1234567</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-envelope-fill"></i>
+            <a href="mailto:u382322@gmail.com">u382322@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-clock-fill"></i>
+            <span>Mon – Sun: 09:00 AM – 11:00 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Credits -->
+      <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <p class="mb-0">
+          &copy; <span class="current-year">2026</span> <strong>Royal Feast</strong>. All Rights Reserved. Crafted for Professional Portfolio &amp; Culinary Showcase.
+        </p>
+        <div class="d-flex gap-3">
+          <a href="privacy.html" class="text-muted text-decoration-none small">Privacy Policy</a>
+          <span class="text-muted">•</span>
+          <a href="contact.html" class="text-muted text-decoration-none small">Help &amp; Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href="#" class="whatsapp-float whatsapp-link" aria-label="Chat on WhatsApp" data-message="Hello Royal Feast! I would like to inquire about your catering services.">
+    <i class="bi bi-whatsapp"></i>
+    <span class="whatsapp-tooltip">Chat with Catering Specialist</span>
+  </a>
+
+  <!-- Back To Top Button -->
+  <button type="button" class="back-to-top" id="backToTopBtn" aria-label="Back to Top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap 5 Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- EmailJS Browser SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <!-- Custom Application Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/email.js"></script>
+</body>
+</html>
